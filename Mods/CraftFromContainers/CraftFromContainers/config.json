@@ -1,6 +1,6 @@
 {
   "modEnabled": true,
   "isDebug": true,
-  "enableForRepairAndUpgrade": true,
-  "range": -1.0
+  "enableForRepairAndUpgrade": false,
+  "range": 40
 }
