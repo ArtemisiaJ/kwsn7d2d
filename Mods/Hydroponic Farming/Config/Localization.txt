@@ -1,0 +1,24 @@
+Key,File,Type,UsedInMainMenu,NoTranslate,english,Context / Alternate Text,brazilian,russian
+
+XUI_windowTools_Hydroponic,UI,farming,,,Tools,,Ferramentas,Инструменты
+
+XUI_CraftingList_HydroponicFarmStation_All,UI,farming,,,All Crops,,Todas as Culturas,Все культуры
+XUI_CraftingList_HydroponicFarmStation_Food,UI,farming,,,Crops For Food,,Culturas para Alimentação,Пищевые культуры
+XUI_CraftingList_HydroponicFarmStation_Drink,UI,farming,,,Crops For Drinks,,Culturas para Bebidas,Культуры для напитков
+XUI_CraftingList_HydroponicFarmStation_Medical,UI,farming,,,Crops For Medical,,Culturas para fins Medicinais,Медицинские культуры
+XUI_CraftingList_HydroponicFarmStation_Resources,UI,farming,,,Crops For Resources,,Culturas como Recursos,Культуры-ресурсы
+
+XUI_CraftingList_HydroponicSeedStation_All,UI,farming,,,All Seeds Conversions,,Todas as Conversões de Sementes,Все преобразования семян
+XUI_CraftingList_HydroponicSeedStation_Food,UI,farming,,,Seeds For Food,,Sementes para Alimentos,Семена для еды
+XUI_CraftingList_HydroponicSeedStation_Drink,UI,farming,,,Seeds For Drinks,,Sementes para Bebidas,Семена для напитков
+XUI_CraftingList_HydroponicSeedStation_Medical,UI,farming,,,Seeds For Medical,,Sementes para fins Medicinais,Семена для медицины
+XUI_CraftingList_HydroponicSeedStation_Resources,UI,farming,,,Seeds For Resources,,Sementes para Recursos,Семена для ресурсов
+
+HydroponicFarmStation,blocks,Workstation,,,Hydroponic Growing Station,,Estação Hidropônica de Cultivo,Гидропонная станция выращивания
+HydroponicFarmStationDesc,blocks,Workstation,,,This station lets you live the farming lifestyle without the need to get your hands dirty,,Esta estação permite que você leve uma vida de fazendeiro sem sujar as mãos.,Эта станция позволяет вести фермерский образ жизни без необходимости пачкать руки.
+
+HydroponicSeedStation,blocks,Workstation,,,Hydroponic Seed Station,,Estação Hidropônica de Sementes,Гидропонная семенная станция
+HydroponicSeedStationDesc,blocks,Workstation,,,This station lets you get better returns on seed crafting.\n\nWorks with the Living Off The Land perk for cheaper recipes,,Esta estação permite que você obtenha mais retornos com a produção de sementes.\n\n Funciona com a vantagem “ Vivendo da terra” para obter receitas mais baratas.,Эта станция позволяет получать больший выход при создании семян.\n\nРаботает с перком «Жизнь на земле» для удешевления рецептов.
+
+seedsT3-1,progression,Attribute,UI,,Tier 3: Hydroponic Seed Station,,Categoria 3: Estação Hidropônica de Sementes,Уровень 3: Гидропонная семенная станция
+seedsT3-2,progression,Attribute,UI,,Tier 3: Hydroponic Grow Station,,Categoria 3: Estação Hidropônica de Cultivo,Уровень 3: Гидропонная станция выращивания

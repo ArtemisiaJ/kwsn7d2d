@@ -1,0 +1,18 @@
+<Config>
+	<append xpath="/progression/perks/perk[@name='perkLivingOffTheLand']/effect_group">
+		<passive_effect name="CraftingTime" operation="perc_add" level="3" value="-0.5" tags="HydroponicFarmStation_Crafting" />
+	</append>
+	
+	<set xpath="/progression/crafting_skills/crafting_skill[@name='craftingSeeds']/@max_level">30</set>
+	
+	<append xpath="/progression/crafting_skills/crafting_skill[@name='craftingSeeds']">
+		<display_entry icon="plantHydroponicAloe,plantHydroponicVertical" name_key="seedsT3-1,seedsT3-2" has_quality="false" unlock_level="25,30">
+			<unlock_entry item="HydroponicSeedStation" unlock_tier="1" />
+			<unlock_entry item="HydroponicFarmStation" unlock_tier="2" />
+		</display_entry>
+		<effect_group>
+			<passive_effect name="RecipeTagUnlocked" operation="base_set" level="25,100" value="1" tags="HydroponicSeedStation" />
+			<passive_effect name="RecipeTagUnlocked" operation="base_set" level="30,100" value="1" tags="HydroponicFarmStation" />
+		</effect_group>
+	</append>
+</Config>

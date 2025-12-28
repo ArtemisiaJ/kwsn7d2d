@@ -1,0 +1,39 @@
+<configs>
+
+<append xpath="/recipes">
+
+<recipe name="metalReinforcedWalkway1x5Support" count="1" craft_time="30" craft_area="workbench" tags="workbenchCrafting">
+	<ingredient name="resourceForgedIron" count="10"/>
+	<ingredient name="resourceWood" count="10"/>
+	<ingredient name="resourceMechanicalParts" count="10"/>
+	<ingredient name="resourceSpring" count="20"/>
+	<ingredient name="resourceCobblestones" count="20"/>
+</recipe>
+
+<recipe name="metalReinforcedWalkway1x5Block" count="1" craft_time="30" craft_area="workbench" tags="workbenchCrafting">
+	<ingredient name="resourceForgedIron" count="10"/>
+	<ingredient name="resourceWood" count="10"/>
+	<ingredient name="resourceMechanicalParts" count="10"/>
+	<ingredient name="resourceSpring" count="20"/>
+	<ingredient name="resourceCobblestones" count="20"/>
+</recipe>
+
+<recipe name="metalReinforcedWalkway3x5Block" count="1" craft_time="30" craft_area="workbench" tags="workbenchCrafting">
+	<ingredient name="resourceForgedIron" count="10"/>
+	<ingredient name="resourceWood" count="10"/>
+	<ingredient name="resourceMechanicalParts" count="10"/>
+	<ingredient name="resourceSpring" count="20"/>
+	<ingredient name="resourceCobblestones" count="20"/>
+</recipe>
+
+<recipe name="metalReinforcedWalkway5x5Block" count="1" craft_time="30" craft_area="workbench" tags="workbenchCrafting">
+	<ingredient name="resourceForgedIron" count="10"/>
+	<ingredient name="resourceWood" count="10"/>
+	<ingredient name="resourceMechanicalParts" count="10"/>
+	<ingredient name="resourceSpring" count="20"/>
+	<ingredient name="resourceCobblestones" count="20"/>
+</recipe>
+
+</append>
+	
+</configs>

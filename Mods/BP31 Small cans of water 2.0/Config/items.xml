@@ -1,0 +1,123 @@
+<Bluepelican31>
+
+    <append xpath="/items">	
+	    
+		<item name="drinkCanEmpty">
+	        <property name="HoldType" value="14"/>
+	        <property name="Meshfile" value="@:Other/Items/Food/can_emptyPrefab.prefab"/>
+	        <property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
+	        <property name="Material" value="Mmetal"/>
+	        <property name="Stacknumber" value="25"/>
+			<property name="Weight" value="1"/>
+	        <property name="EconomicValue" value="5"/>
+	        <property name="CraftingIngredientTime" value="5"/>
+			<property name="CustomIcom" value="drinkCanEmpty"/>
+			<property name="Class" value="ItemClassWaterContainer"/>
+			<property name="DescriptionKey" value="drinkCanEmptyDesc"/>
+	        <property name="WaterCapacity" value="1"/>
+			<property class="Action1">
+		        <property name="Class" value="CollectWater"/>
+		        <property name="Delay" value=".35"/>
+		        <property name="Change_item_to" value="drinkCanMurkyWater"/>
+		        <property name="Sound_start" value="bucketfill_water"/>
+	        </property>
+			<property name="Group" value="Resources"/>
+			<property name="SoundPickup" value="cookingpot_grab"/>
+	        <property name="SoundPlace" value="cookingpot_place"/>
+		</item>
+		
+		<item name="drinkCanMurkyWater">
+	        <property name="HoldType" value="14"/>
+	        <property name="DisplayType" value="waterDysentery"/>
+	        <property name="Meshfile" value="@:Other/Items/Food/can_emptyPrefab.prefab"/>
+	        <property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
+	        <property name="Material" value="Mmetal"/>
+	        <property name="Weight" value="5"/>
+	        <property name="Stacknumber" value="10"/>
+			<property name="DescriptionKey" value="drinkCanMurkyWaterDesc"/>
+	        <property name="EconomicValue" value="10"/>
+	        <property name="EconomicBundleSize" value="1"/>
+	        <property name="SellableToTrader" value="false"/>
+	        <property name="CraftingIngredientTime" value="5"/>
+	        <property class="Action0">
+		        <property name="Class" value="Eat"/>
+		        <property name="Delay" value="1"/>
+		        <property name="Use_time" value="..."/>
+		        <property name="Sound_start" value="player_drinking"/>
+		        <property name="Create_item" value="drinkCanEmpty"/>
+	        </property>
+	        <property name="Group" value="Food/Cooking,CFDrink/Cooking"/>
+
+	        <effect_group tiered="false">
+		        <requirement name="NotHasBuff" buff="buffIsOnFire"/>
+
+		        <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$waterAmountAdd" operation="add" value="5"/>
+		        <display_value name="dStaminaRegen" value=".10"/>
+		        <triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buffProcessConsumables"/>
+		        <triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buffIllDysentery0">
+			        <requirement name="RandomRoll" seed_type="Random" min_max="0,100" operation="LTE" value="20"/>
+		        </triggered_effect>
+		       <display_value name="dDysenteryRisk" value=".2"/>
+	        </effect_group>
+
+	        <effect_group tiered="false">
+		        <requirement name="HasBuff" buff="buffIsOnFire"/>
+			        <triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buffExtinguishFire"/>
+	        </effect_group>
+        </item>
+		
+		<item name="drinkCanBoiledWater">
+	        <property name="HoldType" value="14"/>
+	        <property name="DisplayType" value="waterDysentery"/>
+	        <property name="Meshfile" value="@:Other/Items/Food/can_emptyPrefab.prefab"/>
+	        <property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
+	        <property name="Material" value="Mmetal"/>
+	        <property name="Weight" value="5"/>
+	        <property name="Stacknumber" value="10"/>
+	        <property name="EconomicValue" value="20"/>
+	        <property name="CraftingIngredientTime" value="5"/>
+			<property name="DescriptionKey" value="drinkCanBoiledWaterDesc"/>
+	        <property class="Action0">
+		        <property name="Class" value="Eat"/>
+		        <property name="Delay" value="1"/>
+		        <property name="Use_time" value="..."/>
+		        <property name="Sound_start" value="player_drinking"/>
+		        <property name="Create_item" value="drinkCanEmpty"/>
+	        </property>
+	        <property name="Group" value="Food/Cooking,CFDrink/Cooking"/>
+
+	        <effect_group tiered="false">
+		        <requirement name="NotHasBuff" buff="buffIsOnFire"/>
+
+		        <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$waterAmountAdd" operation="add" value="5"/>
+		        <display_value name="dStaminaRegen" value=".15"/>
+		        <triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buffProcessConsumables"/>
+	        </effect_group>
+
+	        <effect_group tiered="false">
+		        <requirement name="HasBuff" buff="buffIsOnFire"/>
+			        <triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buffExtinguishFire"/>
+	        </effect_group>
+        </item>
+		
+    </append>
+    
+	<append xpath="/items/item[@name='foodCanBeef'
+				or @name='foodCanChicken'
+				or @name='foodCanLamb'
+				or @name='foodCanCatfood'
+				or @name='foodCanDogfood'
+				or @name='foodCanChili'
+				or @name='foodCanTuna'
+				or @name='foodCanSham'
+				or @name='foodCanPasta'
+				or @name='foodCanSalmon'
+				or @name='foodCanMiso'
+				or @name='foodCanPeas'
+				or @name='foodCanPears'
+				or @name='foodCanSoup'
+		        or @name='foodCanStock']/property[@class='Action0']">
+	        <property name="Create_item" value="drinkCanEmpty"/>
+    </append>
+	
+</Bluepelican31>

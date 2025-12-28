@@ -1,0 +1,10 @@
+Key,File,Type,UsedInMainMenu,NoTranslate,english,Context / Alternate Text,german,spanish,french,italian,japanese,koreana,polish,brazilian,russian,turkish,schinese,tchinese
+
+metalReinforcedWalkway1x5Support,blocks,Block,,,Walkway (Girder - 1 x 5),,,,,,,,,,,,,
+metalReinforcedWalkway1x5SupportDesc,blocks,Block,,,"This Walkway (Girder - 1 x 5) can be placed on a block and used as an extendable bridge, in the same way as a drawbridge. Connect them in sequence for longer crossings. Can be locked.",,,,,,,,,,,,,
+metalReinforcedWalkway1x5Block,blocks,Block,,,Walkway (Hi-Tech - 1 x 5),,,,,,,,,,,,,
+metalReinforcedWalkway1x5BlockDesc,blocks,Block,,,"This Walkway (Hi-Tech - 1 x 5) can be placed on a block and used as an extendable bridge, in the same way as a drawbridge. Connect them in sequence for longer crossings. Can be locked.",,,,,,,,,,,,,
+metalReinforcedWalkway3x5Block,blocks,Block,,,Walkway (Brick - 3 x 5),,,,,,,,,,,,,
+metalReinforcedWalkway3x5BlockDesc,blocks,Block,,,"This Walkway (Brick - 3 x 5) can be placed on a block and used as an extendable bridge, in the same way as a drawbridge. Connect them in sequence for longer crossings. Can be locked.",,,,,,,,,,,,,
+metalReinforcedWalkway5x5Block,blocks,Block,,,Walkway (Yellow - 5 x 5),,,,,,,,,,,,,
+metalReinforcedWalkway5x5BlockDesc,blocks,Block,,,"This Walkway (Yellow - 5 x 5) can be placed on a block and used as an extendable bridge, in the same way as a drawbridge. Connect them in sequence for longer crossings. Can be locked.",,,,,,,,,,,,,

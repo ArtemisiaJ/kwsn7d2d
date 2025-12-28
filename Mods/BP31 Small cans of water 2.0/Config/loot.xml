@@ -1,0 +1,7 @@
+<Bluepelican31>
+
+<append xpath="/lootcontainers/lootgroup[@name='groupFoodTrashCommon']">
+	<item name="drinkCanEmpty" loot_prob_template="med"/>
+</append>
+
+</Bluepelican31>

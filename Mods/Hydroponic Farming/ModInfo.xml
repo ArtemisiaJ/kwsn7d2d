@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<xml>
+	<Name value="Hydroponic_Farming" />
+	<DisplayName value="Hydroponic Farming" />
+	<Version value="1.1" />
+	<Description value="This mod adds two new workstations: the Hydroponic Seed Station and the Hydroponic Growing Station.
+						Crafting times correspond to the growth rates of crops in the game, and the 'Live Off the Land' perk 
+						reduces both crafting time and cost with the appropriate tools at the respective workstations."/>
+	<Author value="D3tonad0r"/>
+	<Website value="None" />
+</xml>
+
+

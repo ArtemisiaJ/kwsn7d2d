@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+	<DroneBeginFollowDistance>0.5</DroneBeginFollowDistance>
+	<DroneFollowDistance>0.5</DroneFollowDistance>
+	<DronePositionX>0.0</DronePositionX>
+	<DronePositionY>0.4</DronePositionY>
+	<UseDroneAccess>true</UseDroneAccess>
+</xml>

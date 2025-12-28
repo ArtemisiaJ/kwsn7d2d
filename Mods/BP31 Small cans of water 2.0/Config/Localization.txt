@@ -1,0 +1,7 @@
+﻿Key,File,Type,UsedInMainMenu,NoTranslate,english,Context / Alternate Text,german,latam,french,italian,japanese,koreana,polish,brazilian,russian,turkish,schinese,tchinese,spanish
+drinkCanEmpty,items,item,,,"Empty Can",,,,,,,,,,,,,
+drinkCanEmptyDesc,items,item,,,"An empty can, holds 10oz. of water or snow but nothing else. Weird.",,,,,,,,,,,,
+drinkCanMurkyWater,items,item,,,"Can of Murky Water",,,,,,,,,,,,,
+drinkCanMurkyWaterDesc,items,item,,,"Seems to be water, but I would not drink it!",,,,,,,,,,,,,
+drinkCanBoiledWater,items,item,,,"Can of Boiled Water",,,,,,,,,,,,,
+drinkCanBoiledWaterDesc,items,item,,,"Small can of potable water, but falls over easy while trying to boil. Being careful takes time, maybe I should have packed a Life Straw!",,,,,,,,,,,,,

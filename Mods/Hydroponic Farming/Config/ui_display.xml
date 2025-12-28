@@ -1,0 +1,21 @@
+<Config>
+	<append xpath="/ui_display_info/crafting_category_display">
+		<!-- Hydroponic Farm Vertical -->
+		<crafting_category_list display_type="HydroponicFarmStation">
+			<crafting_category name="HydroponicFarmStation_All" icon="ui_game_symbol_book" display_name="XUI_CraftingList_HydroponicFarmStation_All" />	
+			<crafting_category name="HydroponicFarmStation_Food" icon="ui_game_symbol_fork" display_name="XUI_CraftingList_HydroponicFarmStation_Food" />	
+			<crafting_category name="HydroponicFarmStation_Drink" icon="ui_game_symbol_thirst" display_name="XUI_CraftingList_HydroponicFarmStation_Drink" />
+			<crafting_category name="HydroponicFarmStation_Medical" icon="ui_game_symbol_medical" display_name="XUI_CraftingList_HydroponicFarmStation_Medical" />
+			<crafting_category name="HydroponicFarmStation_Resources" icon="ui_game_symbol_resource" display_name="XUI_CraftingList_HydroponicFarmStation_Resources" />
+		</crafting_category_list>	
+
+		<!-- Hydroponic Seed Station -->
+		<crafting_category_list display_type="HydroponicSeedStation">
+			<crafting_category name="HydroponicSeedStation_All" icon="ui_game_symbol_book" display_name="XUI_CraftingList_HydroponicSeedStation_All" />	
+			<crafting_category name="HydroponicSeedStation_Food" icon="ui_game_symbol_fork" display_name="XUI_CraftingList_HydroponicSeedStation_Food" />	
+			<crafting_category name="HydroponicSeedStation_Drink" icon="ui_game_symbol_thirst" display_name="XUI_CraftingList_HydroponicSeedStation_Drink" />
+			<crafting_category name="HydroponicSeedStation_Medical" icon="ui_game_symbol_medical" display_name="XUI_CraftingList_HydroponicSeedStation_Medical" />
+			<crafting_category name="HydroponicSeedStation_Resources" icon="ui_game_symbol_resource" display_name="XUI_CraftingList_HydroponicSeedStation_Resources" />	
+		</crafting_category_list>
+	</append>
+</Config>

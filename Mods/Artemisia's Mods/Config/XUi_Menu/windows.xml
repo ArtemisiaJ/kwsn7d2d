@@ -1,0 +1,3 @@
+<configs>
+  <set xpath="//rect[@tab_key='xuiGameSettingsMultiplayer']//gameoption[@name='BedrollDeadZoneSize']/@values">0, 5, 15, 20, 30, 40, 50, 70</set>
+</configs>

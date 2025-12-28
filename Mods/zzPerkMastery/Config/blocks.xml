@@ -1,0 +1,169 @@
+<configs>
+
+<!-- TIER 1 -->
+
+<!-- TREASURE HUNTER -->
+<append xpath="/blocks/block[@name='terrDirt']">
+	<drop event="Harvest" name="resourceScrapLead" prob=".01" count="1,100" tag="TreasureValue1"/>
+	<drop event="Harvest" name="casinoCoin" prob=".01" count="1,100" tag="TreasureValue1"/>
+</append>
+
+<append xpath="/blocks/block[@name='terrSnow']">
+	<drop event="Harvest" name="resourcePotassiumNitratePowder" prob=".01" count="1,100" tag="TreasureValue1"/>
+	<drop event="Harvest" name="casinoCoin" prob=".01" count="1,100" tag="TreasureValue1"/>
+</append>
+
+<append xpath="/blocks/block[@name='terrSand']">
+	<drop event="Harvest" name="resourceOilShale" prob=".01" count="1,100" tag="TreasureValue1"/>
+	<drop event="Harvest" name="casinoCoin" prob=".01" count="1,100" tag="TreasureValue1"/>
+</append>
+
+<append xpath="/blocks/block[@name='treeMaster']">
+	<drop event="Harvest" name="foodHoney" prob=".01" count="1,2" tag="TreasureValue1"/>
+	<drop event="Harvest" name="casinoCoin" prob=".001" count="200,1000" tag="TreasureValue1"/>
+</append>
+
+<!-- GOLD DIGGER -->
+<append xpath="/blocks/block[@name='terrStone']">
+	<drop event="Harvest" name="resourceSilverNugget" prob=".002" count="0,3" tag="DiggerValue1"/>
+	<drop event="Harvest" name="resourceGoldNugget" prob=".001" count="0,3" tag="DiggerValue1"/>
+	<drop event="Harvest" name="resourceRawDiamond" prob= ".0005" count="0,3" tag="DiggerValue1"/>
+</append>
+
+<append xpath="/blocks/block[@name='terrOreIron']">
+	<drop event="Harvest" name="resourceSilverNugget" prob=".004" count="0,3" tag="DiggerValue1"/>
+	<drop event="Harvest" name="resourceGoldNugget" prob=".002" count="0,3" tag="DiggerValue1"/>
+	<drop event="Harvest" name="resourceRawDiamond" prob= ".001" count="0,3" tag="DiggerValue1"/>
+</append>
+
+<append xpath="/blocks/block[@name='terrOreLead']">
+	<drop event="Harvest" name="resourceSilverNugget" prob=".004" count="0,3" tag="DiggerValue1"/>
+	<drop event="Harvest" name="resourceGoldNugget" prob=".002" count="0,3" tag="DiggerValue1"/>
+	<drop event="Harvest" name="resourceRawDiamond" prob= ".001" count="0,3" tag="DiggerValue1"/>
+</append>
+
+<append xpath="/blocks/block[@name='terrOreCoal']">
+	<drop event="Harvest" name="resourceSilverNugget" prob=".004" count="0,3" tag="DiggerValue1"/>
+	<drop event="Harvest" name="resourceGoldNugget" prob=".002" count="0,3" tag="DiggerValue1"/>
+	<drop event="Harvest" name="resourceRawDiamond" prob= ".001" count="0,3" tag="DiggerValue1"/>
+</append>
+
+<append xpath="/blocks/block[@name='terrOrePotassiumNitrate']">
+	<drop event="Harvest" name="resourceSilverNugget" prob=".004" count="0,3" tag="DiggerValue1"/>
+	<drop event="Harvest" name="resourceGoldNugget" prob=".002" count="0,3" tag="DiggerValue1"/>
+	<drop event="Harvest" name="resourceRawDiamond" prob= ".001" count="0,3" tag="DiggerValue1"/>
+</append>
+
+
+
+<!-- TIER 2 -->
+
+<!-- TREASURE HUNTER -->
+<append xpath="/blocks/block[@name='terrDirt']">
+	<drop event="Harvest" name="resourceScrapLead" prob=".02" count="1,100" tag="TreasureValue2"/>
+	<drop event="Harvest" name="casinoCoin" prob=".02" count="1,100" tag="TreasureValue2"/>
+</append>
+
+<append xpath="/blocks/block[@name='terrSnow']">
+	<drop event="Harvest" name="resourcePotassiumNitratePowder" prob=".02" count="1,100" tag="TreasureValue2"/>
+	<drop event="Harvest" name="casinoCoin" prob=".02" count="1,100" tag="TreasureValue2"/>
+</append>
+
+<append xpath="/blocks/block[@name='terrSand']">
+	<drop event="Harvest" name="resourceOilShale" prob=".02" count="1,100" tag="TreasureValue2"/>
+	<drop event="Harvest" name="casinoCoin" prob=".02" count="1,100" tag="TreasureValue2"/>
+</append>
+
+<append xpath="/blocks/block[@name='treeMaster']">
+	<drop event="Harvest" name="foodHoney" prob=".02" count="1,2" tag="TreasureValue2"/>
+	<drop event="Harvest" name="casinoCoin" prob=".002" count="200,1000" tag="TreasureValue2"/>
+</append>
+
+<!-- GOLD DIGGER -->
+<append xpath="/blocks/block[@name='terrStone']">
+	<drop event="Harvest" name="resourceSilverNugget" prob=".005" count="0,3" tag="DiggerValue2"/>
+	<drop event="Harvest" name="resourceGoldNugget" prob=".0025" count="0,3" tag="DiggerValue2"/>
+	<drop event="Harvest" name="resourceRawDiamond" prob= ".0005" count="0,3" tag="DiggerValue2"/>
+</append>
+
+<append xpath="/blocks/block[@name='terrOreIron']">
+	<drop event="Harvest" name="resourceSilverNugget" prob=".01" count="0,3" tag="DiggerValue2"/>
+	<drop event="Harvest" name="resourceGoldNugget" prob=".005" count="0,3" tag="DiggerValue2"/>
+	<drop event="Harvest" name="resourceRawDiamond" prob= ".001" count="0,3" tag="DiggerValue2"/>
+</append>
+
+<append xpath="/blocks/block[@name='terrOreLead']">
+	<drop event="Harvest" name="resourceSilverNugget" prob=".01" count="0,3" tag="DiggerValue2"/>
+	<drop event="Harvest" name="resourceGoldNugget" prob=".005" count="0,3" tag="DiggerValue2"/>
+	<drop event="Harvest" name="resourceRawDiamond" prob= ".001" count="0,3" tag="DiggerValue2"/>
+</append>
+
+<append xpath="/blocks/block[@name='terrOreCoal']">
+	<drop event="Harvest" name="resourceSilverNugget" prob=".01" count="0,3" tag="DiggerValue2"/>
+	<drop event="Harvest" name="resourceGoldNugget" prob=".005" count="0,3" tag="DiggerValue2"/>
+	<drop event="Harvest" name="resourceRawDiamond" prob= ".001" count="0,3" tag="DiggerValue2"/>
+</append>
+
+<append xpath="/blocks/block[@name='terrOrePotassiumNitrate']">
+	<drop event="Harvest" name="resourceSilverNugget" prob=".01" count="0,3" tag="DiggerValue2"/>
+	<drop event="Harvest" name="resourceGoldNugget" prob=".005" count="0,3" tag="DiggerValue2"/>
+	<drop event="Harvest" name="resourceRawDiamond" prob= ".001" count="0,3" tag="DiggerValue2"/>
+</append>
+
+
+
+<!-- TIER 3 -->
+
+<!-- TREASURE HUNTER -->
+<append xpath="/blocks/block[@name='terrDirt']">
+	<drop event="Harvest" name="resourceScrapLead" prob=".03" count="1,100" tag="TreasureValue3"/>
+	<drop event="Harvest" name="casinoCoin" prob=".03" count="1,100" tag="TreasureValue3"/>
+</append>
+
+<append xpath="/blocks/block[@name='terrSnow']">
+	<drop event="Harvest" name="resourcePotassiumNitratePowder" prob=".03" count="1,100" tag="TreasureValue3"/>
+	<drop event="Harvest" name="casinoCoin" prob=".03" count="1,100" tag="TreasureValue3"/>
+</append>
+
+<append xpath="/blocks/block[@name='terrSand']">
+	<drop event="Harvest" name="resourceOilShale" prob=".03" count="1,100" tag="TreasureValue3"/>
+	<drop event="Harvest" name="casinoCoin" prob=".03" count="1,100" tag="TreasureValue3"/>
+</append>
+
+<append xpath="/blocks/block[@name='treeMaster']">
+	<drop event="Harvest" name="foodHoney" prob=".03" count="1,2" tag="TreasureValue3"/>
+	<drop event="Harvest" name="casinoCoin" prob=".003" count="200,1000" tag="TreasureValue3"/>
+</append>
+
+<!-- GOLD DIGGER -->
+<append xpath="/blocks/block[@name='terrStone']">
+	<drop event="Harvest" name="resourceSilverNugget" prob=".01" count="0,3" tag="DiggerValue3"/>
+	<drop event="Harvest" name="resourceGoldNugget" prob=".005" count="0,3" tag="DiggerValue3"/>
+	<drop event="Harvest" name="resourceRawDiamond" prob= ".001" count="0,3" tag="DiggerValue3"/>
+</append>
+
+<append xpath="/blocks/block[@name='terrOreIron']">
+	<drop event="Harvest" name="resourceSilverNugget" prob=".02" count="0,3" tag="DiggerValue3"/>
+	<drop event="Harvest" name="resourceGoldNugget" prob=".01" count="0,3" tag="DiggerValue3"/>
+	<drop event="Harvest" name="resourceRawDiamond" prob= ".002" count="0,3" tag="DiggerValue3"/>
+</append>
+
+<append xpath="/blocks/block[@name='terrOreLead']">
+	<drop event="Harvest" name="resourceSilverNugget" prob=".02" count="0,3" tag="DiggerValue3"/>
+	<drop event="Harvest" name="resourceGoldNugget" prob=".01" count="0,3" tag="DiggerValue3"/>
+	<drop event="Harvest" name="resourceRawDiamond" prob= ".002" count="0,3" tag="DiggerValue3"/>
+</append>
+
+<append xpath="/blocks/block[@name='terrOreCoal']">
+	<drop event="Harvest" name="resourceSilverNugget" prob=".02" count="0,3" tag="DiggerValue3"/>
+	<drop event="Harvest" name="resourceGoldNugget" prob=".01" count="0,3" tag="DiggerValue3"/>
+	<drop event="Harvest" name="resourceRawDiamond" prob= ".002" count="0,3" tag="DiggerValue3"/>
+</append>
+
+<append xpath="/blocks/block[@name='terrOrePotassiumNitrate']">
+	<drop event="Harvest" name="resourceSilverNugget" prob=".02" count="0,3" tag="DiggerValue3"/>
+	<drop event="Harvest" name="resourceGoldNugget" prob=".01" count="0,3" tag="DiggerValue3"/>
+	<drop event="Harvest" name="resourceRawDiamond" prob= ".002" count="0,3" tag="DiggerValue3"/>
+</append>
+
+</configs>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+    <Name value="DroneLockToPlayer_A88" />
+    <DisplayName value="DroneLockToPlayer" />
+    <Description value="Adds an option to keep the drone behind the player so that the drone will not get in the way. It can be toggled on and off in the radial menu." />
+    <Author value="A88" />
+	<Website value="" />
+	<Version value="1.0.4" />
+</xml>

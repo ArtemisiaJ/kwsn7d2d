@@ -1,0 +1,174 @@
+<configs>
+	<append xpath="/blocks">
+	
+<!-- 1X5 Metallic Walkway with girder support visual for side or block placement -->	
+<block name="metalReinforcedWalkway1x5Support">
+	<property name="Class" value="DrawBridge"/>
+	<property name="OpenSound" value="oakopen_bridge"/>
+	<property name="CloseSound" value="oakclose_bridge"/>
+	<property name="DisplayType" value="blockMulti"/>
+	<property name="Stacknumber" value="500"/>
+	<property name="Material" value="MmetalDrawbridge"/>
+	<property name="MaxDamage" value="2500"/>
+	<property name="Shape" value="ModelEntity"/>
+	<property name="Model" value="#@modfolder:Resources/OakWalkWays.unity3d?1x4oak"/>
+	<property name="ModelOffset" value="-2,0.5,0"/>
+	<property name="Texture" value="241"/> <!-- intentionally generates wood hit sounds -->
+	<property name="MultiBlockDim" value="5,1,1"/>
+	<property name="ImposterExchange" value="imposterDontBlockHalf" param1="120"/>
+	<property name="LightOpacity" value="1"/>
+	<property name="WaterFlow" value="permitted"/>
+	<property name="Place" value="DrawBridge"/>
+	<property name="PlaceEverywhere" value="true"/>
+	<property name="EconomicValue" value="1"/>
+	<property name="SellableToTrader" value="false"/>
+	<property name="OnlySimpleRotations" value="true"/>
+	<property name="ActivationDistance" value="14"/> <!-- This is how far away you can PLACE the block and how far away you can ACTIVATE it -->
+	<property class="RepairItems">
+		<property name="resourceForgedIron" value="20"/>
+		<property name="resourceWood" value="20"/>
+	</property>
+	<drop event="Harvest" name="resourceScrapIron" count="50" tag="allHarvest"/>
+	<drop event="Harvest" name="resourceWood" count="5" tag="allHarvest,lumberjackHarvest"/>
+	<drop event="Harvest" name="terrStone" count="0" tool_category="Disassemble"/>
+	<drop event="Destroy" name="resourceSpring" count="4,12" tag="salvageHarvest" tool_category="Disassemble"/>
+	<drop event="Destroy" name="resourceMechanicalParts" count="2,6" tag="salvageHarvest" tool_category="Disassemble"/>
+	<drop event="Destroy" count="0"/>
+	<drop event="Fall" name="scrapMetalPile" count="1" prob="0.75" stick_chance="1"/>
+	<property name="SortOrder1" value="B337"/>
+	<property name="SortOrder2" value="0000"/>
+	<property name="Group" value="Building,advBuilding"/>
+	<!--property name="BlockTag" value="Door" /--> <!-- this signals the path finder that it shall try doors preferred, we don't want this on draw bridges -->
+	<property name="Tags" value="door"/>
+	<property name="FilterTags" value="MC_building,SC_doors"/>
+</block>
+
+<!-- 1X5 Hi-tech Walkway with own metal block support -->
+<block name="metalReinforcedWalkway1x5Block">
+	<property name="Class" value="DrawBridge"/>
+	<property name="OpenSound" value="oakopen_bridge"/>
+	<property name="CloseSound" value="oakclose_bridge"/>
+	<property name="DisplayType" value="blockMulti"/>
+	<property name="Stacknumber" value="500"/>
+	<property name="Material" value="MmetalDrawbridge"/>
+	<property name="MaxDamage" value="2500"/>
+	<property name="Shape" value="ModelEntity"/>
+	<property name="Model" value="#@modfolder:Resources/OakWalkWays.unity3d?1X4Lights"/>
+	<property name="ModelOffset" value="-2,0.5,0"/>
+	<property name="Texture" value="241"/> <!-- intentionally generates wood hit sounds -->
+	<property name="MultiBlockDim" value="5,1,1"/>
+	<property name="ImposterExchange" value="imposterDontBlockHalf" param1="120"/>
+	<property name="LightOpacity" value="1"/>
+	<property name="WaterFlow" value="permitted"/>
+	<property name="Place" value="DrawBridge"/>
+	<property name="PlaceEverywhere" value="true"/>
+	<property name="EconomicValue" value="1"/>
+	<property name="SellableToTrader" value="false"/>
+	<property name="OnlySimpleRotations" value="true"/>
+	<property name="ActivationDistance" value="14"/> <!-- This is how far away you can PLACE the block and how far away you can ACTIVATE it -->
+	<property class="RepairItems">
+		<property name="resourceForgedIron" value="20"/>
+		<property name="resourceWood" value="20"/>
+	</property>
+	<drop event="Harvest" name="resourceScrapIron" count="50" tag="allHarvest"/>
+	<drop event="Harvest" name="resourceWood" count="5" tag="allHarvest,lumberjackHarvest"/>
+	<drop event="Harvest" name="terrStone" count="0" tool_category="Disassemble"/>
+	<drop event="Destroy" name="resourceSpring" count="4,12" tag="salvageHarvest" tool_category="Disassemble"/>
+	<drop event="Destroy" name="resourceMechanicalParts" count="2,6" tag="salvageHarvest" tool_category="Disassemble"/>
+	<drop event="Destroy" count="0"/>
+	<drop event="Fall" name="scrapMetalPile" count="1" prob="0.75" stick_chance="1"/>
+	<property name="SortOrder1" value="B337"/>
+	<property name="SortOrder2" value="0000"/>
+	<property name="Group" value="Building,advBuilding"/>
+	<!--property name="BlockTag" value="Door" /--> <!-- this signals the path finder that it shall try doors preferred, we don't want this on draw bridges -->
+	<property name="Tags" value="door"/>
+	<property name="FilterTags" value="MC_building,SC_doors"/>
+</block>
+
+<!-- 3X5 Walkway with own brick block support -->
+<block name="metalReinforcedWalkway3x5Block">
+	<property name="Class" value="DrawBridge"/>
+	<property name="OpenSound" value="oakopen_bridge"/>
+	<property name="CloseSound" value="oakclose_bridge"/>
+	<property name="DisplayType" value="blockMulti"/>
+	<property name="Stacknumber" value="500"/>
+	<property name="Material" value="MmetalDrawbridge"/>
+	<property name="MaxDamage" value="2500"/>
+	<property name="Shape" value="ModelEntity"/>
+	<property name="Model" value="#@modfolder:Resources/OakWalkWays.unity3d?Brick3X4"/>
+	<property name="ModelOffset" value="-2,0.5,0"/>
+	<property name="Texture" value="241"/> <!-- intentionally generates wood hit sounds -->
+	<property name="MultiBlockDim" value="5,1,3"/>
+	<property name="ImposterExchange" value="imposterDontBlockHalf" param1="120"/>
+	<property name="LightOpacity" value="1"/>
+	<property name="WaterFlow" value="permitted"/>
+	<property name="Place" value="DrawBridge"/>
+	<property name="PlaceEverywhere" value="true"/>
+	<property name="EconomicValue" value="1"/>
+	<property name="SellableToTrader" value="false"/>
+	<property name="OnlySimpleRotations" value="true"/>
+	<property name="ActivationDistance" value="14"/> <!-- This is how far away you can PLACE the block and how far away you can ACTIVATE it -->
+	<property class="RepairItems">
+		<property name="resourceForgedIron" value="20"/>
+		<property name="resourceWood" value="20"/>
+	</property>
+	<drop event="Harvest" name="resourceScrapIron" count="50" tag="allHarvest"/>
+	<drop event="Harvest" name="resourceWood" count="5" tag="allHarvest,lumberjackHarvest"/>
+	<drop event="Harvest" name="terrStone" count="0" tool_category="Disassemble"/>
+	<drop event="Destroy" name="resourceSpring" count="4,12" tag="salvageHarvest" tool_category="Disassemble"/>
+	<drop event="Destroy" name="resourceMechanicalParts" count="2,6" tag="salvageHarvest" tool_category="Disassemble"/>
+	<drop event="Destroy" count="0"/>
+	<drop event="Fall" name="scrapMetalPile" count="1" prob="0.75" stick_chance="1"/>
+	<property name="SortOrder1" value="B337"/>
+	<property name="SortOrder2" value="0000"/>
+	<property name="Group" value="Building,advBuilding"/>
+	<!--property name="BlockTag" value="Door" /--> <!-- this signals the path finder that it shall try doors preferred, we don't want this on draw bridges -->
+	<property name="Tags" value="door"/>
+	<property name="FilterTags" value="MC_building,SC_doors"/>
+</block>
+
+<!-- 5X5 yellow metallic Walkway with own metal block support -->
+<block name="metalReinforcedWalkway5x5Block">
+	<property name="Class" value="DrawBridge"/>
+	<property name="OpenSound" value="oakopen_bridge"/>
+	<property name="CloseSound" value="oakclose_bridge"/>
+	<property name="DisplayType" value="blockMulti"/>
+	<property name="Stacknumber" value="500"/>
+	<property name="Material" value="MmetalDrawbridge"/>
+	<property name="MaxDamage" value="2500"/>
+	<property name="Shape" value="ModelEntity"/>
+	<property name="Model" value="#@modfolder:Resources/OakWalkWays.unity3d?5X4"/>
+	<property name="ModelOffset" value="-2,0.5,0"/>
+	<property name="Texture" value="241"/> <!-- intentionally generates wood hit sounds -->
+	<property name="MultiBlockDim" value="5,1,5"/>
+	<property name="ImposterExchange" value="imposterDontBlockHalf" param1="120"/>
+	<property name="LightOpacity" value="1"/>
+	<property name="WaterFlow" value="permitted"/>
+	<property name="Place" value="DrawBridge"/>
+	<property name="PlaceEverywhere" value="true"/>
+	<property name="EconomicValue" value="1"/>
+	<property name="SellableToTrader" value="false"/>
+	<property name="OnlySimpleRotations" value="true"/>
+	<property name="ActivationDistance" value="14"/> <!-- This is how far away you can PLACE the block and how far away you can ACTIVATE it -->
+	<property class="RepairItems">
+		<property name="resourceForgedIron" value="20"/>
+		<property name="resourceWood" value="20"/>
+	</property>
+	<drop event="Harvest" name="resourceScrapIron" count="50" tag="allHarvest"/>
+	<drop event="Harvest" name="resourceWood" count="5" tag="allHarvest,lumberjackHarvest"/>
+	<drop event="Harvest" name="terrStone" count="0" tool_category="Disassemble"/>
+	<drop event="Destroy" name="resourceSpring" count="4,12" tag="salvageHarvest" tool_category="Disassemble"/>
+	<drop event="Destroy" name="resourceMechanicalParts" count="2,6" tag="salvageHarvest" tool_category="Disassemble"/>
+	<drop event="Destroy" count="0"/>
+	<drop event="Fall" name="scrapMetalPile" count="1" prob="0.75" stick_chance="1"/>
+	<property name="SortOrder1" value="B337"/>
+	<property name="SortOrder2" value="0000"/>
+	<property name="Group" value="Building,advBuilding"/>
+	<!--property name="BlockTag" value="Door" /--> <!-- this signals the path finder that it shall try doors preferred, we don't want this on draw bridges -->
+	<property name="Tags" value="door"/>
+	<property name="FilterTags" value="MC_building,SC_doors"/>
+</block>
+
+</append>
+
+</configs>
