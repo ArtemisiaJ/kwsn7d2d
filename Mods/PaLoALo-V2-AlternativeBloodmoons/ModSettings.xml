@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Gears modsettings for AlternativeBloodmoons.
+     Follows Gears ModSettings schema (Selector, Switch, Color).
+     Color defaultColor values are RGB 0..255 (alpha kept in Settings.xml).
+-->
+<ModSettings>
+  <Global>
+    <Tab name="AlternativeBloodmoons" displayKey="Alternative Bloodmoons" tooltipKey="[DECEA3]Alternative Bloodmoon settings[-]">
+      <Category name="General" displayKey="[00b6ff]General[-]" tooltipKey="[DECEA3]General mod behaviour[-]">
+        <!-- Use Selector with arrayValues for enum-like choice -->
+        <Selector name="EnemyBehavior" displayKey="Enemy Behavior" tooltipKey="Select enemy behavior" defaultValue="Default" wrap="false">
+          <Property type="arrayValues" allowedValues="Default,RoamArea" />
+        </Selector>
+
+        <Switch name="PreventSpawnsInBedrollRange" displayKey="Prevent Spawns In Bedroll Range" tooltipKey="[DECEA3]Prevent spawns near player bedrolls[-]" defaultValue="True" leftValue="False" rightValue="True" />
+        <Switch name="EnableRegularSpawns" displayKey="Enable Regular Spawns" tooltipKey="[DECEA3]Allow regular (non-bloodmoon) spawns[-]" defaultValue="True" leftValue="False" rightValue="True" />
+        <Switch name="DisableSpecialVultures" displayKey="Disable Special Vultures" tooltipKey="[DECEA3]Disable radiated vulture special spawns[-]" defaultValue="True" leftValue="False" rightValue="True" />
+        <Switch name="DisableMusic" displayKey="Disable Music" tooltipKey="[DECEA3]Disable bloodmoon music[-]" defaultValue="False" leftValue="False" rightValue="True" />
+        <Switch name="UseCustomColors" displayKey="Use Custom Colors" tooltipKey="[DECEA3]Use custom bloodmoon color spectrums[-]" defaultValue="False" leftValue="False" rightValue="True" />
+      </Category>
+
+      <Category name="Colors" displayKey="[00b6ff]Colors[-]" tooltipKey="[DECEA3]Custom bloodmoon color values[-]">
+        <!-- Color widget takes R,G,B (0..255) -->
+        <Color name="Moon" displayKey="Moon Color" tooltipKey="Moon tint (RGB 0..255)" defaultColor="255,26,26" />
+        <Color name="MoonLight" displayKey="Moon Light Color" tooltipKey="Moon light tint (RGB 0..255)" defaultColor="191,26,26" />
+        <Color name="SunLight" displayKey="Sun Light Color" tooltipKey="Sun light tint (RGB 0..255)" defaultColor="77,38,0" />
+        <Color name="Sky" displayKey="Sky Color" tooltipKey="Sky tint (RGB 0..255)" defaultColor="128,64,25" />
+        <Color name="Fog" displayKey="Fog Color" tooltipKey="Fog tint (RGB 0..255)" defaultColor="25,25,25" />
+      </Category>
+    </Tab>
+  </Global>
+  <World />
+</ModSettings>

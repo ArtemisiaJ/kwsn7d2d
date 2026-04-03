@@ -1,0 +1,7 @@
+<xml>
+	<Name value="LandClaimBlocksPreventSpawning"/>
+	<DisplayName value="Land Claim Blocks Prevent Spawning"/>
+	<Author value="original author Sephumbra - updated by PaLoALo with written consent"/>
+	<Version value="2.5.0.2"/>
+	<SkipWithAntiCheat value="true"/>
+</xml>

@@ -1,0 +1,17 @@
+<xml>
+	<Name value="AlternativeBloodmoons"/>
+	<DisplayName value="Alternative Bloodmoons"/>
+	<Author value="original author Sephumbra - updated with written consent by PaLoALo"/>
+	<Version value="2.5.1.4"/>
+	<SkipWithAntiCheat value="true"/>
+	<Description value="[DECEA3]Changes the blood moon event to be more enjoyable and configurable:" />
+</xml>
+
+<!--
+- Disable blood moon enemies instantly targeting you and instead make them roam the area. This is enabled by default. 
+- Disable forced spawns of radiated vultures when a player is inside a vehicle and remove their sticking to vehicles. This is enabled by default. 
+- Enable biome spawns, like animals and regular zombies, during blood moon. This is enabled by default. 
+- Prevent blood moon spawns inside bedroll range. This is enabled by default. 
+- Disable blood moon music. This is disabled by default. 
+- Change the colors of the blood moon sky. This is disabled by default.
+-->
